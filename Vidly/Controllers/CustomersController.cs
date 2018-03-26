@@ -64,7 +64,7 @@ namespace Vidly.Controllers
             return RedirectToAction("Index", "Customers");
         }
 
-        // GET: Customers
+        
         public ActionResult Index()
         {
             return View();
